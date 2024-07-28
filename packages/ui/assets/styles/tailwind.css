@@ -554,6 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -736,6 +744,10 @@ video {
   color: var(--light-positive-color);
 }
 
+.text-light-secondary-text-color {
+  color: var(--light-secondary-text-color);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -869,6 +881,10 @@ video {
   opacity: 0.5;
 }
 
+.peer:invalid ~ .peer-invalid\:text-light-negative-color {
+  color: var(--light-negative-color);
+}
+
 .peer:focus ~ .peer-focus\:border-light-primary-color {
   border-color: var(--light-primary-color);
 }
@@ -887,6 +903,26 @@ video {
 
 .has-\[input\:focus\]\:border-light-positive-color:has(input:focus) {
   border-color: var(--light-positive-color);
+}
+
+.peer:has(aria-invalid) ~ .peer-has-\[aria-invalid\]\:text-light-negative-color {
+  color: var(--light-negative-color);
+}
+
+.peer:has('aria-invalid') ~ .peer-has-\[\'aria-invalid\'\]\:text-light-negative-color {
+  color: var(--light-negative-color);
+}
+
+.peer:has(aria-invalid===true) ~ .peer-has-\[aria-invalid\=\=\=true\]\:text-light-negative-color {
+  color: var(--light-negative-color);
+}
+
+.peer:has(aria-invalid="true") ~ .peer-has-\[aria-invalid\=\"true\"\]\:text-light-negative-color {
+  color: var(--light-negative-color);
+}
+
+.peer:has(aria-invalid='true') ~ .peer-has-\[aria-invalid\=\'true\'\]\:text-light-negative-color {
+  color: var(--light-negative-color);
 }
 
 .\[\&\>input\]\:flex-1>input {

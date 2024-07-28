@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Input } from '@repo/ui';
+  import { Button, Input, TextField } from '@repo/ui';
   function handleClick() {
     console.log('handle click');
   }
@@ -8,4 +8,7 @@
 <div>
   <Button on:click={handleClick} size="sm">Button</Button>
   <Input></Input>
+  <TextField label="Lable">
+    <span slot="prefix">prefix</span>
+  </TextField>
 </div>
