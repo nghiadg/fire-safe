@@ -7,7 +7,8 @@
   interface $$Props extends Omit<HTMLInputAttributes, 'size'> {
     size?: InputSize;
     state?: 'error' | 'positive' | 'default';
-    className?: string;
+    wrapperClass?: string;
+    inputClass?: string;
   }
 
   const inputVariants = cva(
