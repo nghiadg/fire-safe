@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* Semantic colors */
+  --light-primary-color: #0073ea;
+  --light-primary-hover-color: #0060b9;
+  --light-primary-selected-color: #cce5ff;
+  --light-positive-color: #258750;
+  --light-positive-color-hover: #007038;
+  --light-positive-color-selected: #bbdbc9;
+  --light-negative-color: #d83a52;
+  --light-negative-color-hover: #b63546;
+  --light-negative-color-selected: #f4c3cb;
+  --light-primary-warning-color: #ffcb00;
+  --light-primary-warning-color-hover: #eaaa15;
+  --light-primary-warning-color-selected: #fceba1;
+  --light-private-color: #f65f7c;
+  --light-shareable-color: #a358df;
+  --light-icon-color: #676879;
+
+  /* Background colors */
+  --light-primary-background-color: #ffffff;
+  --light-secondary-background-color: #ffffff;
+  --light-primary-background-hover-color: #dcdfec;
+  --light-disabled-background-color: #ecedf5;
+  --light-inverted-color-background: #323338;
+  --light-allgrey-background-color: #f5f6f8;
+
+  /* Text colors */
+  --light-primary-text-color: #323338;
+  --light-secondary-text-color: #676879;
+  --light-text-color-on-inverted: #ffffff;
+  --light-text-color-on-primary: #ffffff;
+  --light-disabled-text-color: #67687966;
+  --light-placeholder-color: #676879;
+  --light-link-color: #1f76c2;
+
+  /* Border colors */
+  --light-ui-border-color: #c5c7d0;
+  --light-layout-border-color: #e6e9ef;
+
+  /* Content colors */
+  --blackish: #333333;
+  --amerycan-gray: #808080;
+  --winter: #9aadbd;
+  --explosive: #c4c4c4;
+  --tan: #ad967a;
+  --coffee: #bd816e;
+  --brown: #7f5347;
+  --pecan: #563e3e;
+  --darkindigo: #401694;
+  --indigo: #5559df;
+  --darkpurple: #784bd1;
+  --berry: #7e3b8a;
+  --purple: #a25ddc;
+  --lavender: #bda8f9;
+  --steel: #a9bee8;
+  --lilac: #9d99b9;
+  --navy: #225091;
+  --royal: #2b76e5;
+  --darkblue: #0086c0;
+  --lightblue: #579bfc;
+  --chillblue: #66ccff;
+  --sky: #a1e3f6;
+  --aquamarine: #4eccc6;
+  --river: #68a1bd;
+  --teal: #175a63;
+  --grass-green: #037f4c;
+  --green: #00c875;
+  --bright-green: #9cd326;
+  --saladish: #cab641;
+  --egg-yolk: #ffcc00;
+  --orange: #fdab3d;
+  --dark-orange: #ff642e;
+  --dark-red: #ba3254;
+  --red: #e2445c;
+  --peach: #ffadad;
+  --sunset: #ff7575;
+  --sofia-pink: #ff158a;
+  --lipstick: #ff5ac4;
+  --bubble: #faa1f1;
+  --orchid: #d974b0;
+}
