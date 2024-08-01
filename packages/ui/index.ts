@@ -4,3 +4,6 @@ export * from './components/button/Button.type';
 export { default as Input } from './components/input/Input.svelte';
 // Radio
 export { default as Radio } from './components/radio/Radio.svelte';
+
+/*---------Actions-------- */
+export * from './actions/tooltip/tooltip';
