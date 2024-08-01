@@ -1,2 +1,17 @@
 @import './config.css';
 @import './tailwind.css';
+/* tippy.js */
+@import 'tippy.js/dist/tippy.css';
+
+/* Custome tippy css */
+.tippy-box {
+  background-color: var(--light-inverted-color-background);
+  color: var(--light-text-color-on-inverted);
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tippy-arrow::before {
+  border-top-color: var(--light-inverted-color-background);
+}
